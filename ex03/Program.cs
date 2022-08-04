@@ -1,4 +1,5 @@
-﻿System.Console.Write("Введите номер дня недели: ");
+﻿// программа выводит день недели по номеру
+System.Console.Write("Введите номер дня недели: ");
 string value = Console.ReadLine();
 int day = int.Parse(value); // преобразовали строку в число
 if (day == 1) System.Console.WriteLine("Это понедельник");

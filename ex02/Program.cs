@@ -1,4 +1,5 @@
-﻿int Prompt(string message)
+﻿// проверка квадрата числа
+int Prompt(string message)
 {
     System.Console.Write(message); // Вывести сообщение 
     string readValue = Console.ReadLine();// считывает с консоли строку
