@@ -7,7 +7,7 @@
 }
 
 int numberOne = Prompt("Введите первое число:");
-int numberTwo = Prompt ("Введите второе число:");
+int numberTwo = Prompt("Введите второе число:");
 
 int resault = numberOne * numberOne;
 if (resault == numberTwo)
@@ -15,7 +15,7 @@ if (resault == numberTwo)
     System.Console.WriteLine($"Число {numberTwo} является квадратом числа {numberOne}");
 }
 
-else 
+else
 {
     System.Console.WriteLine($"Число {numberTwo} не является квадратом числа {numberOne}");
 }
