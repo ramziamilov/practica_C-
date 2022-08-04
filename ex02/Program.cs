@@ -12,10 +12,10 @@ int numberTwo = Prompt ("Введите второе число:");
 int resault = numberOne * numberOne;
 if (resault == numberTwo)
 {
-    System.Console.WriteLine($"Число {numberOne} является квадратом числа {numberTwo}");
+    System.Console.WriteLine($"Число {numberTwo} является квадратом числа {numberOne}");
 }
 
 else 
 {
-    System.Console.WriteLine($"Число {numberOne} не является квадратом числа {numberTwo}");
+    System.Console.WriteLine($"Число {numberTwo} не является квадратом числа {numberOne}");
 }
