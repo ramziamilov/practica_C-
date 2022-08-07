@@ -1,4 +1,5 @@
-﻿System.Console.Write("Введите первое число: ");
+﻿// выдает максимальное число из трех
+System.Console.Write("Введите первое число: ");
 string valueOne = Console.ReadLine();
 System.Console.Write("Введите второе число: ");
 string valueTwo = Console.ReadLine();
