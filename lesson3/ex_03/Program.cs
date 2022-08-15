@@ -3,7 +3,7 @@
 5 -> 1, 4, 9, 16, 25.
 2 -> 1,4
 */
-/*
+
 int Prompt(string message)
 {
     System.Console.Write(message);
@@ -29,7 +29,7 @@ void SetN(int num)
 
 
 SetN(Prompt("Введите число : "));
-*/
+
 
 int[] arrayFill(int size)
 {
