@@ -11,7 +11,7 @@ int Prompt(string message)
 int Sum(int number)
 {
     int result = 0;
-    
+
     while (number > 0)
     {
         result = result + number % 10;
@@ -21,10 +21,11 @@ int Sum(int number)
 }
 
 int number = Prompt("Введите число: ");
-if (number>=0)
+if (number >= 0)
 {
-System.Console.WriteLine(Sum(number));
+    System.Console.WriteLine(Sum(number));
 }
-else {
+else
+{
     System.Console.WriteLine("некорректный ввод");
 }
