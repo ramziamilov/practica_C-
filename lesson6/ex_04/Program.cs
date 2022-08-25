@@ -40,5 +40,26 @@ int[] CountFibbanachi(int numberFibb)
     return array;
 }
 
-int[] array = CountFibbanachi(Prompt("введите число: "));
-PrintArray(array);
+void CountFibbanachi1(int numberFibb)
+{
+    int f1 = 0;
+     int f2= 1;
+     int f;
+
+    int i = 2;
+    while (i < numberFibb)
+    {
+        f = f1+f2;
+        f1=f2;
+        f2=f;
+        System.Console.WriteLine(f);
+        i++;
+    }
+}
+
+
+
+
+
+
+CountFibbanachi1(Prompt("введите число: "));
